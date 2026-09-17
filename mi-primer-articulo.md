@@ -18,3 +18,7 @@ Este es un párrafo de mi artículo. Puedo usar \*\*negrita\*\* o \*cursiva\*.
 
 Aquí hay un enlace a \[Google](https://www.google.com).
 
+
+
+!\[Ejemplo](assets/images/Ejemplo.png)
+
