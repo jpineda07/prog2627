@@ -20,6 +20,5 @@ Aquí hay un enlace a \[Google](https://www.google.com).
 
 
 
-!\[Ejemplo](assets/images/Ejemplo.png)
 !\[Ejemplo](C:\\Users\\09\_1DAW\\prog2627\\assets\\images\\Ejemplo.png)
 
