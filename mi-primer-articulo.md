@@ -1,6 +1,7 @@
+---
 layout: default
 title: Mi Primer Artículo sobre Markdown
-
+---
 
 
 # Encabezado Principal
@@ -21,5 +22,5 @@ Aquí hay un enlace a [Google](https://www.google.com).
 
 
 
-[Ejemplo](assets/images/Ejemplo.png)
+![Ejemplo](assets/images/Ejemplo.png)
 
