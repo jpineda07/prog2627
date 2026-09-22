@@ -6,7 +6,7 @@ title: Mi Primer Artículo sobre Markdown
 
 # Encabezado Principal
 
-Este es un párrafo de mi artículo. Puedo usar \*\*negrita\*\* o \*cursiva\*.
+Este es un párrafo de mi artículo. Puedo usar **negrita** o *cursiva*.
 
 
 
