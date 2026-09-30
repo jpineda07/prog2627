@@ -5,7 +5,7 @@
 celsius=(input("Ingrese la temperatura en °C: "))
 C=float(celsius)
 
-# Una vez transformado los celcius a tipo float hacemos la cuenta y pasamos los fahrenheit a tipo str para poder concattenarlo con texto.
+# Una vez transformado los celcius a tipo float hacemos la cuenta y pasamos los fahrenheit a tipo str para poder concatenarlo con texto.
 
 fahrenheit= (C *  9/5) +32
 F=str(fahrenheit)
