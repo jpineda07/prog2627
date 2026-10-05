@@ -7,7 +7,7 @@ unidades=int(input("cuantos pediste?: "))
 propina=input("Desea deja una propina de 2 Euros?(si/no): ")
 
 
-propina=str((propina=="si")*2)
+propina=((propina=="si")*2)
 
 
 subtotal = (precio * unidades)
@@ -18,9 +18,11 @@ total = (subtotal + iva + propina)
 
 vip=(bool(total > 30))
 
-print("=======================\nTique de cafeteria\n=======================\nCliente: "+name+"\nProducto: "+producto+"x"+unidades+"\n----------------------\n\nSubtotal: "+subtotal+" euros\nIVA(21%): "+iva+ "euros\nTotal a pagar: "+total+"\n\n----------------------\n\nsupera el umbral VIP(>30euros)?: "+vip+"\n=======================")
+unidad=str(unidades)
+subtotal_=str(subtotal)
+IVA=str(iva)
+Total=str(total)
+VIP=str(vip)
 
-print(total)
-print(propina)
-print(iva)
-print(vip)
+print("=======================\nTique de cafeteria\n=======================\nCliente: "+name+"\nProducto: "+producto+" x "+unidad+"\n----------------------\n\nSubtotal: "+subtotal_+" euros\nIVA(21%): "+IVA+ " euros\nTotal a pagar: "+Total+"\n\n----------------------\n\nsupera el umbral VIP(>30euros)?: "+VIP+"\n=======================")
+
