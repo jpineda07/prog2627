@@ -8,3 +8,4 @@ public class Ejercicio17_1 {
         System.out.println("El precio de la armadura es de "+ armadura+ " creditos , con el descuento tendria un precio final de "+precio_final+" creditos");
     }
 }
+    
