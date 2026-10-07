@@ -11,7 +11,7 @@ public class Ejercicio20 {
         System.out.println("introduzca el segundo numero: ");
         int n2 = sc.nextInt();
         
-        double media = (n1+n2)/2;
+        double media = (double)(n1+n2)/2;
         
         System.out.println("La media de los dos numeros es: "+media);
         

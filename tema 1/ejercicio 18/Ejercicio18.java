@@ -9,7 +9,7 @@ public class Ejercicio18 {
         System.out.println("introduzca el anio actual: ");
         int año = sc.nextInt();
         
-        int años=año-FechaN;
-        System.out.println("tienes "+años+" anios");
+        año=año-FechaN;
+        System.out.println("tienes "+año+" anios");
     }
 }
