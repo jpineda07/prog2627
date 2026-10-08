@@ -1,6 +1,6 @@
 
 public class Ejercicio23 {
-    static void main(String[] args){
+    public static void main(String[] args){
         
         boolean e1 = (3<=5 && 2==2);
         boolean e2 = (3<=5 && 2>10);

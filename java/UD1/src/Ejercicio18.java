@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 
 public class Ejercicio18 {
-    static void main(String[] args){
+    public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         System.out.println("Introduzca su fecha de nacimiento: ");
         int FechaN = sc.nextInt();

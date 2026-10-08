@@ -1,7 +1,7 @@
 
 public class Ejercicio19 {
 
-    static void main(String[] args) {
+    public static void main(String[] args) {
 
         int a = 32767;
 

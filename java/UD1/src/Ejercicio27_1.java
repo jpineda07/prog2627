@@ -1,13 +1,18 @@
 import java.util.Scanner;
-
-public class Ejercicio22 {
+/**
+ *
+ * @author 09_1DAW
+ */
+public class Ejercicio27_1 {
     public static void main(String[] args){
         
         Scanner sc = new Scanner(System.in);
         System.out.println("Introduzca su edad: ");
         int edad = sc.nextInt();
-        boolean mayor = edad >= 18;
+        double precio = edad<12 ? 5 : edad>64? 6: 8;
+        System.out.println("Precio: "+precio);
         
-        System.out.println("Mayor de edad: "+mayor);
+
     }
+    
 }
