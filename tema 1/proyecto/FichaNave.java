@@ -57,7 +57,7 @@ public class FichaNave {
         System.out.println("================================================================================\nFICHA OFICIAL\n================================================================================");
         System.out.println("Combustible actual: " +combustibleActualEntero +" Litros");
         System.out.println("Años luz: " +añosLuzEntero );
-        System.out.println("Porcentaje de combustible: " +porcentajeEntero +" Litros" );
+        System.out.println("Porcentaje de combustible: " +porcentajeEntero +"%" );
         System.out.println("Combustible sobrante: " +combustibleSobranteEntero+" Litros" );
         
 
