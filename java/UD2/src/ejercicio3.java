@@ -5,14 +5,15 @@ import java.util.Scanner;
  */
 public class ejercicio3 {
     public static void main(String[] args){
-        Scanner sc = new Scanner(System.in);
         System.out.println("Introduza su nombre: ");
-        String nombre = sc.next();
+        String usuario= "Jose";
+        final String USUARIO_CORRECTO = "Jose";
         
-        if (nombre = "Jose"){
-            System.out.println("Bienvenido "+nombre);
+        if (usuario == USUARIO_CORRECTO){
+            System.out.println("Bienvenido "+usuario);
 
         }
+        System.out.println("Fin");
     }
     
 }
