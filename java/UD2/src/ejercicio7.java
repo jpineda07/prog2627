@@ -13,18 +13,15 @@ public class ejercicio7 {
         System.out.println("Introduza el anio: ");
         int año = sc.nextInt();
 
-        if (año % 4 == 0) {
+        if (año % 400 == 0) {
             System.out.println("El anio es bisiesto");
         } else if (año % 100 == 0) {
-            System.out.println("El anio no es bisiesto");
-            
-        }   if  (año % 100 == 0) {
-                    if (año % 400 == 0)
-                System.out.println("El anio es bisiesto");
-        }else {
+            System.out.println("No es bisiesto");
+
+        } else if (año % 4 == 0) {
+            System.out.println("El anio es bisiesto");
+        } else {
             System.out.println("No es bisiesto");
         }
-        
     }
-    }
-
+}
