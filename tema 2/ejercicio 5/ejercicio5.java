@@ -15,11 +15,9 @@ public class ejercicio5 {
         if (n1 > n2 ){
             System.out.println(n1 +" es mayor que "+n2);
 
-        }
-        else if(n1<n2){
+        } else if(n1<n2){
             System.out.println(n2+" es mayor que "+n1);
-        }
-        else{
+        } else{
             System.out.println(n1+" es igual que "+n2);
         }
         System.out.println("Fin");
