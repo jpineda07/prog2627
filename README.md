@@ -18,7 +18,6 @@ Este portfolio reúne el trabajo realizado a lo largo del curso y permite consul
 - **Repositorio:** [prog2627](https://github.com/jpineda07/prog2627)
 - **Curso académico:** 2026–2027
 - **Tipo de contenido:** ejercicios, actividades y proyectos de programación.
-- **Plataforma:** GitHub.
 
 ## Objetivos
 
