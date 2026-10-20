@@ -19,6 +19,7 @@ public class EjercicioAmpliacion {
 
         if (pinIntroducido == pinCorrecto){
             System.out.println("Acceso concedido."); 
+            break;
        }else if (intentos < 0){
            System.out.println("Acceso bloqueado.");
        }
