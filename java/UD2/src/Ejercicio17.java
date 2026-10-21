@@ -8,7 +8,7 @@ public class Ejercicio17 {
         Scanner sc = new Scanner(System.in);
         
         while(true){
-            System.out.println("\n1.Mostrar Saldo \n2.Retirar Saldo \n3.Salir\nElije una opcion :");
+            System.out.println("1.Mostrar Saldo \n2.Retirar Saldo \n3.Salir\nElije una opcion :");
         int opcion = sc.nextInt();
             if (opcion == 3){
                 System.out.println("Gracias por usar el cajero. Adios!");
