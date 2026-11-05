@@ -13,7 +13,7 @@ public class Ejercicio7 {
 
         System.out.println("===================MENU===================\n1.Sumar\n2.Restar\n3.Multiplicar\n4.Dividir\n5.Raiz Cuadrada\n6.Potencia\nSelecciona la opcion: ");
         int menu = sc.nextInt();
-        if (menu == 1 || menu == 2 || menu == 3 || menu == 4 || menu == 6) {
+        if (menu !=5) {
             System.out.println("Introduzca los dos numeros que desees operar: ");
             num1 = sc.nextDouble();
             num2 = sc.nextDouble();
