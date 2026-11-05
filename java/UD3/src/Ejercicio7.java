@@ -9,7 +9,7 @@ public class Ejercicio7 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        double num1 = 0, num2 = 0, num3 = 0;
+        double num1 = 0, num2 = 0, num3;
 
         System.out.println("===================MENU===================\n1.Sumar\n2.Restar\n3.Multiplicar\n4.Dividir\n5.Raiz Cuadrada\n6.Potencia\nSelecciona la opcion: ");
         int menu = sc.nextInt();
