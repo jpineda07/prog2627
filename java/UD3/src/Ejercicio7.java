@@ -23,26 +23,22 @@ public class Ejercicio7 {
         }
         switch (menu) {
             case 1:
-                double sumar = suma(num1, num2);
-                System.out.println("La suma da: " + sumar);
+                System.out.println("La suma da: " + suma(num1,num2));
                 break;
             case 2:
-                double restar = resta(num1, num2);
-                System.out.println("La resta da: " + restar);
+                System.out.println("La resta da: " + resta(num1,num2));
                 break;
             case 3:
                 System.out.println("1.Operar con 2 numeros decimales\n2.Operar con 3 numeros enteros\n3.Operar con 2 numeros enteros");
                 int menuMultiplicacion = sc.nextInt();
                 switch (menuMultiplicacion) {
                     case 1:
-                        double multiplicacion = multiplicar(num1, num2);
-                        System.out.println("La multiplicacion da: " + multiplicacion);
+                        System.out.println("La multiplicacion da: " + multiplicar(num1, num2));
                         break;
                     case 2:
                         System.out.println("Añade el tercer numero: ");
                         num3 = sc.nextInt();
-                        int multiplicacionInt = (int) multiplicar((int) num1, (int) num2, (int) num3);
-                        System.out.println("La multiplicacion da: " + multiplicacionInt);
+                        System.out.println("La multiplicacion da: " +  multiplicar((int) num1, (int) num2, (int) num3));
                         break;
                     case 3:
                         System.out.println("La multiplicacion da: " + multiplicar((int) num1, (int) num2));
