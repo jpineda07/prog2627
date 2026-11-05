@@ -1,4 +1,4 @@
-
+      
 import java.util.Scanner;
 
 /**
@@ -9,28 +9,28 @@ public class Ejercicio4 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        double num1,num2;
+        System.out.println("Introduzca los dos numeros que desees operar: ");
+        num1 = sc.nextDouble();
+        num2 = sc.nextDouble();
         System.out.println("===================MENU===================\n1.Sumar\n2.Restar\n3.Multiplicar\n4.Dividir\nSelecciona la opcion: ");
         int menu = sc.nextInt();
         switch (menu) {
             case 1:
-                System.out.println("Introduzca los numeros para la suma: ");
-                double sumar = suma(sc.nextDouble(), sc.nextDouble());
+                double sumar = suma(num1,num2);
                 System.out.println("La suma da: " + sumar);
                 break;
             case 2:
-                System.out.println("Introduzca los numeros para la resta: ");
-                double restar = resta(sc.nextDouble(), sc.nextDouble());
+                double restar = resta(num1,num2);
                 System.out.println("La resta da: " + restar);
                 break;
             case 3:
-                System.out.println("Introduzca los numeros para la multiplicacion: ");
-                double multiplicacion = multiplicar(sc.nextDouble(), sc.nextDouble());
+                double multiplicacion = multiplicar(num1, num2);
                 System.out.println("La multiplicacion da: " + multiplicacion);
                 break;
             case 4:
-                System.out.println("Introduzca los numeros para la division: ");
-                double division = dividir(sc.nextDouble(), sc.nextDouble());
-                if (sc.nextDouble() == 0) {
+                double division = dividir(num1,num2);
+                if (num2 == 0 || num1==0) {
                     System.out.println("No es posible dividir entre 0");
                     break;
                 } else {
@@ -61,3 +61,5 @@ public class Ejercicio4 {
     }
 
 }
+
+
