@@ -12,16 +12,16 @@ public class Ejercicio7 {
         double num1 = 0, num2 = 0, num3;
 
         System.out.println("===================MENU===================\n1.Sumar\n2.Restar\n3.Multiplicar\n4.Dividir\n5.Raiz Cuadrada\n6.Potencia\nSelecciona la opcion: ");
-        int menu = sc.nextInt();
-        if (menu !=5) {
+        int opcion = sc.nextInt();
+        if (opcion !=5) {
             System.out.println("Introduzca los dos numeros que desees operar: ");
             num1 = sc.nextDouble();
             num2 = sc.nextDouble();
-        } else if (menu == 5) {
+        } else if (opcion == 5) {
             System.out.println("Introduzca un numero: ");
             num1 = sc.nextDouble();
         }
-        switch (menu) {
+        switch (opcion) {
             case 1:
                 System.out.println("La suma da: " + suma(num1,num2));
                 break;
