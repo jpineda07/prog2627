@@ -95,7 +95,7 @@ public class Ejercicio7 {
     }
 
     public static double potencia(double numero1, double numero2) {
-        return (Math.pow(numero2, numero2));
+        return (Math.pow(numero1, numero2));
     }
 
 }
