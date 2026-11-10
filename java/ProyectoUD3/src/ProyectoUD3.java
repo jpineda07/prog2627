@@ -5,10 +5,6 @@
  */
 public class ProyectoUD3 {
 
-    public static void main(String[] args) {
-
-    }
-
     // Método que recibe tres números y devuelve su multiplicación
     public static double multiplicarTresNumeros(double n1, double n2, double n3) {
         // Multiplicamos los tres números y devolvemos el resultado 

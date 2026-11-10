@@ -6,7 +6,8 @@
 public class ProyectoUD3 {
 
     public static void main(String[] args) {
-
+        int n1= 10;
+        comprobarPar(n1);
     }
 
     // Método que recibe tres números y devuelve su multiplicación
