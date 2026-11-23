@@ -14,6 +14,10 @@ public class Ejercicio27 {
         String frase = sc.nextLine();
         System.out.println("Que palabra quieres buscar?: ");
         String palabra = sc.nextLine();
+        
+        frase = frase.toLowerCase();
+        palabra = palabra.toLowerCase();
+        
         System.out.println("Contiene la palabra?: "+frase.contains(palabra));
         System.out.println("Esta en la posicion: " + frase.indexOf(palabra));
         System.out.println("Comienza por ella?: "+ frase.startsWith(palabra));
